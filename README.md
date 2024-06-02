@@ -4,6 +4,8 @@ A simple portfolio built with React.
 
 ### [Credit](https://github.com/ubaimutl)
 
+### [Preview](https://bryanportfolio-bryans-projects-ce7304ff.vercel.app/portfolio)
+
 ### Features
 
 - Fully Responsive
