@@ -1,6 +1,6 @@
-import { FaPython, FaReact, FaCss3, FaHtml5,  } from "react-icons/fa";
+import { FaPython, FaReact, FaCss3, FaHtml5, FaNodeJs  } from "react-icons/fa";
 import { FiFigma } from "react-icons/fi";
-import { DiVisualstudio, DiFirebase, DiJavascript1, DiMysql } from "react-icons/di";
+import { DiVisualstudio, DiFirebase, DiJavascript1, DiMysql, DiNodejs } from "react-icons/di";
 
 const logotext = "BRY4N";
 const meta = {
@@ -24,20 +24,20 @@ const dataabout = {
     aboutme: "I’m Bryan Dhaniel, 20 years old, I am a Software and AI engineer enthusiast, passionate with mobile, AI model and Web Development, as well as like to learn new thing",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Member of GDSC",
+        where: "Telkom Bandung GDSC",
+        date: "2022",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Internship in ASE Lab",
+        where: "ASE Laboratory Telkom University",
+        date: "2024",
     },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
+    // {
+    //     jobtitle: "Designer of week",
+    //     where: "ALquds",
+    //     date: "2019",
+    // },
 ];
 
 const skills = [{
@@ -81,6 +81,10 @@ const skills = [{
         name: "MySql",
         icon: DiMysql,
     },
+    {
+        name:"Node",
+        icon: FaNodeJs,
+    },
 ];
 
 const services = [{
@@ -101,22 +105,76 @@ const dataportfolio = [{
         img: "/to-do.png",
         description: "This is my to-do app with ghibli style.",
         link: "https://ghibli-to-do-app.vercel.app/",
+        imgframe: "/To-Do-Frame.png",
+        overview:"This is my to-do app and my first project that have a ghibli style",
+        purpose:"This is my to-do app and my first project that have a ghibli style, I make this to-do app cause It’s a great way to learn some key skills, It’s a simple CRUD app so I can learn basic HTTP requests, some HTML, CSS and JavaScript and I also can learnt how to implement my imagination design to this project. By building a to-do app, I gain hands-on experience with essential programming concepts, algorithms, and best practices. This practical project helps solidify my understanding and prepares me for more complex applications in the future.",
+        whatido:"Cause this is my individual project, I'm full responsible in UI, Algorithm etc."
     },
     {
         img: "/tic-tac-toe.png",
         description: "This is a simple tic-tac-toe game with ghibli style.",
         link: "https://ghiblitictactoe-bryans-projects-ce7304ff.vercel.app/",
+        imgframe: "/TTT-Frame.png",
+        overview:"This is my Tic-Tac-Toe game with ghibli style, a classic and engaging two-player game that allows users to compete against each other in a grid-based format. The game features a clean and intuitive user interface, designed to enhance the user experience while incorporating interactive elements. Players take turns marking their chosen cells with either an X or an O, but rather use X and O I use Totoro (Ghibli Character), aiming to align three symbols in a row, column, or diagonal to win the game. ",
+        purpose:"I developed this Tic-Tac-Toe game as my first major project to practice and solidify my programming skills. Through this project, I aimed to learn and apply various essential concepts, including:",
+        whatido:"Cause this is my individual project, I'm full responsible in UI, Algorithm etc."
+
     },
     {
         img: "/calc.png",
         description: "This is a simple calculator with html, css, and js only.",
         link: "https://simple-calculator-using-html-css.vercel.app/",
+        imgframe:"/calc.png ",
+        overview:"This is my calculator app, designed to perform essential arithmetic operations such as addition, subtraction, multiplication, and division. It features a user-friendly interface that ensures easy input and quick responses, making it suitable for everyday calculations. This project is a great starting point for learning about building interactive applications.",
+        purpose:"I created this calculator as part of my learning journey to develop key programming skills. It allowed me to explore the following concepts and techniques, Mathematical Logic, Event Handling, State Management ",
+        whatido:"Cause this is my individual project, I'm full responsible in UI, Algorithm etc."
     },
     {
         img: "/chat-web.png",
         description: "This is my first website chat using javascript, html, css and firebase to store the data.",
         link: "https://ghiblichatapp-bryans-projects-ce7304ff.vercel.app/",
+        imgframe:"/Chat-Frame.png ",
+        overview:"This is my first big project, real-time chat using without number (using email).",
+        purpose:"I developed this project to improve my understanding about firebase authentication, firestore, storage ",
+        whatido:"Cause this is my individual project, I'm full responsible in FrontEnd and Backend."
     },
+    {
+        img: "/Arjuna.png",
+        description: "This is my first team project using Flutter.",
+        link: "https://github.com/ananda17gb/arjunachicken-foodorderapp",
+        imgframe:"/Arjuna.png ",
+        overview:"This is my first app team (2 people) project using Flutter.",
+        purpose:"I developed this app to finish my Data Structure course and learn a little bit about flutter, the order will be storage in excel/spreadsheet ",
+        whatido:"I'm full responsible in FrontEnd."
+    },
+    {
+        img: "/Temajuk.png",
+        description: "This is team project to deploy a website for social INNOVILLAGE PROJECT.",
+        link: "https://visittemajuk.com",
+        imgframe:"/Temajuk-Frame.png ",
+        overview:"This is a visittemajuk website, similar like visitlondon, where you can know what you need to do when you want to go to temajuk",
+        purpose:"We developed this website, to fulfill our client request (Lecturer) for Innovillage Project",
+        whatido:"I'm responsible in UI/UX designer."
+    },
+    {
+        img: "/RPL.png",
+        description: "This is team project to make a website for KTM submission.",
+        link: "https://github.com/rafifpurnomo/Tugas-Intern_ASE-LAB",
+        imgframe:"/RPL-Frame.png ",
+        overview:"This is a KTM submission website, where you can make a submission for your KTM",
+        purpose:"We developed this project to fulfill internship in RPLGDC",
+        whatido:"Cause I'm the only Front-End in my team, I'm fully responsible in Front-End Engineer."
+    },
+    {
+        img: "/petadopt.png",
+        description: "This is my first mobile app using react native.",
+        link: "https://github.com/rafifpurnomo/Tugas-Intern_ASE-LAB",
+        imgframe:"/petadopt.png ",
+        overview:"This is a mobile app for pet adopt, where you can adopt a pet or make ",
+        purpose:"I developed this project to learn things about react native",
+        whatido:"This is my individual project, so I responsible in my UI/UX, Algorithm, Firebase."
+    },
+
 ];
 
 const contactConfig = {

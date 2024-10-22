@@ -37,10 +37,10 @@ body {
     --secondary-color: #000;
     --text-color: #000;
     --text-color-2: #000;
-    --text-color-3: rgb(204, 0, 0);
+    --text-color-3: rgb(29, 16, 16);
     --overlay-color: rgb(255 255 255 / 70%);
     /* --bg-image: url('../public/bg5.png'); */
-    --bg-image: url('../public/wallpaperflare.com_wallpaper3.jpg');
+    --bg-image: url('../public/bg5.png');
     --bg-size: cover;
 }
 

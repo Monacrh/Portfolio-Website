@@ -82,3 +82,78 @@
 .po_item .content a:hover {
     text-decoration: none;
 }
+
+.project-img {
+    max-width: 100%; 
+    height: auto; 
+    width: 300px;    
+    border-radius: 10px; 
+  }
+  
+  .frame-img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px; /* Space between the two images */
+  }
+
+  .fancy-button {
+    position: relative;
+    background-color: #262626; /* Neutral-800 */
+    height: 4rem; /* 16px * 4 = 64px */
+    width: 16rem; /* 64px * 4 */
+    border: 1px solid transparent;
+    text-align: left;
+    padding: 0.75rem;
+    color: #f9fafb; /* Gray-50 */
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 0.5rem; /* Rounded-lg */
+    overflow: hidden;
+    transition: all 0.5s ease;
+  }
+  
+  .fancy-button::before,
+  .fancy-button::after {
+    content: '';
+    position: absolute;
+    z-index: 10;
+    border-radius: 50%;
+    filter: blur(8px);
+    transition: all 0.5s ease;
+  }
+  
+  .fancy-button::before {
+    width: 3rem; /* 12px * 4 = 48px */
+    height: 3rem;
+    top: 0.25rem; /* 1px */
+    right: 0.25rem;
+    background-color: #8b5cf6; /* Violet-500 */
+  }
+  
+  .fancy-button::after {
+    width: 5rem; /* 20px * 4 = 80px */
+    height: 5rem;
+    top: 0.75rem; /* 3px */
+    right: 2rem; /* 8px */
+    background-color: #f43f5e; /* Rose-300 */
+  }
+  
+  .fancy-button:hover {
+    border-color: #f43f5e; /* Rose-300 */
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    color: #f43f5e;
+    transition: all 0.5s ease;
+  }
+  
+  .fancy-button:hover::before {
+    right: 3rem; /* Shift right */
+    bottom: -2rem; /* Shift down */
+    box-shadow: 20px 20px 30px #a21caf;
+  }
+  
+  .fancy-button:hover::after {
+    right: -2rem;
+  }
+  
+  
