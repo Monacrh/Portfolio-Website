@@ -134,7 +134,7 @@ const dataportfolio = [{
         description: "This is my first website chat using javascript, html, css and firebase to store the data.",
         link: "https://ghiblichatapp-bryans-projects-ce7304ff.vercel.app/",
         imgframe:"/Chat-Frame.png ",
-        overview:"This is my first big project, real-time chat using without number (using email).",
+        overview:"This is my first big project, real-time chat using without number (using email), so you don't need to use phone number to chat with your friends, family, etc, this project use firebase for simple authentication, firestrore and storage.",
         purpose:"I developed this project to improve my understanding about firebase authentication, firestore, storage ",
         whatido:"Cause this is my individual project, I'm full responsible in FrontEnd and Backend."
     },
@@ -143,7 +143,7 @@ const dataportfolio = [{
         description: "This is my first team project using Flutter.",
         link: "https://github.com/ananda17gb/arjunachicken-foodorderapp",
         imgframe:"/Arjuna.png ",
-        overview:"This is my first app team (2 people) project using Flutter.",
+        overview:"This is my first app team (2 people) project using Flutter and spreadsheet for the database order.",
         purpose:"I developed this app to finish my Data Structure course and learn a little bit about flutter, the order will be storage in excel/spreadsheet ",
         whatido:"I'm full responsible in FrontEnd."
     },
@@ -152,7 +152,7 @@ const dataportfolio = [{
         description: "This is team project to deploy a website for social INNOVILLAGE PROJECT.",
         link: "https://visittemajuk.com",
         imgframe:"/Temajuk-Frame.png ",
-        overview:"This is a visittemajuk website, similar like visitlondon, where you can know what you need to do when you want to go to temajuk",
+        overview:"This is a visittemajuk website, similar like visitlondon, where you can know what you need to do when you want to go to temajuk, we use Figma for our UI/UX and Flutter to developed the website",
         purpose:"We developed this website, to fulfill our client request (Lecturer) for Innovillage Project",
         whatido:"I'm responsible in UI/UX designer."
     },
@@ -161,18 +161,27 @@ const dataportfolio = [{
         description: "This is team project to make a website for KTM submission.",
         link: "https://github.com/rafifpurnomo/Tugas-Intern_ASE-LAB",
         imgframe:"/RPL-Frame.png ",
-        overview:"This is a KTM submission website, where you can make a submission for your KTM",
-        purpose:"We developed this project to fulfill internship in RPLGDC",
+        overview:"This is a KTM submission website, where you can make a submission for your KTM, for framework we use react.js as a for Front-End and Express.js as backend, we also use SQL for store the database",
+        purpose:"We developed this project to fulfill internship in RPLGDC, and make the submission KTM easier",
         whatido:"Cause I'm the only Front-End in my team, I'm fully responsible in Front-End Engineer."
     },
     {
         img: "/petadopt.png",
         description: "This is my first mobile app using react native.",
-        link: "https://github.com/rafifpurnomo/Tugas-Intern_ASE-LAB",
+        link: "https://github.com/Monacrh/petadopt-react",
         imgframe:"/petadopt.png ",
-        overview:"This is a mobile app for pet adopt, where you can adopt a pet or make ",
-        purpose:"I developed this project to learn things about react native",
+        overview:"This mobile application is designed to facilitate pet adoption in Indonesia, providing users with an intuitive and user-friendly platform to connect with various animal shelters and rescues. Users can browse through a wide selection of adoptable pets, including dogs, cats, and other animals, each accompanied by detailed profiles that include images and description. The app aims to promote responsible pet ownership and encourage more people to consider adopting pets rather than purchasing them. ",
+        purpose:"I developed this project as a practical learning experience to deepen my understanding of React Native, a powerful framework for building mobile applications. Through this project, I aimed to enhance my skills in mobile app development. I wanted to explore the unique challenges and opportunities presented by building an app for a social cause—helping to find loving homes for pets in need. By creating this app, I hope to contribute to the community and raise awareness about the importance of animal adoption while also refining my technical abilities.",
         whatido:"This is my individual project, so I responsible in my UI/UX, Algorithm, Firebase."
+    },
+    {
+        img: "/UI_learn.png ",
+        description: "This is my practice to implement UI/UX in flutter .",
+        link: "https://github.com/Monacrh/ui_learn",
+        imgframe:"/UI_learn.png ",
+        overview:"This is a UI for LoginPage ",
+        purpose:"I developed this project to learn how to implementing the UI/UX into Flutter",
+        whatido:"This is my practice for implementing UI/UX."
     },
 
 ];
