@@ -4,7 +4,7 @@ A simple portfolio built with React.
 
 ### [Credit](https://github.com/ubaimutl)
 
-### [Preview](https://bryanportfolio-bryans-projects-ce7304ff.vercel.app/portfolio)
+### [Preview](https://bryanportfolio-g4chohqjy-bryans-projects-ce7304ff.vercel.app/)
 
 ### Features
 
